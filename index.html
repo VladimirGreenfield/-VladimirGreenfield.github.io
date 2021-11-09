@@ -9,27 +9,26 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+                    <a class="nav-link active" aria-current="page" href="#"><button>Home</button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><button>About</button></a>
+                </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Contact</a>
-                    </li>
-                </ul>
+                    <a class="nav-link" href="#"><button>Projects</button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link href="#"><button>Contact</button></a>
+                </li>
+            </ul>
             </div>
         </div>
     </nav>
@@ -37,112 +36,106 @@
         
     <div class="page-container">
         <div class="Home">
-            <div class="Home">
-            <div class="col">
-              <h1>Welcome to my I.O.</h1> 
-              <h3>Full Stack Web Developer</h3> 
-              <h4>Digital Product Designer</h4>
-            </div>
+            <div class="home-section row">
+              <h1 style="color:#C4BABA;"">Welcome to my I.O.</h1> 
+              <h3 style="color:#C4BABA;">Full Stack Web Developer</h3> 
+              <h4 style="color:#C4BABA;">Digital Product Designer</h4>
             </div>
         </div>
 
         <div class="About">
-            <div class="About">
-            <div class="col">
+            <div class="aboutme-section row">
                 <h3>About Me</h3>
-            </div>
             </div>
         </div>
 
-        <div class="Projects">
-            <div class="Projects">
-            <div class="col">
+        <div class="project-section Projects">
+            <div class="row">
                 <h3>Projects</h3>
-                <div class="project-cards">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/Travel.jpg" class="card-image-top" alt="Travel">
-                        <div class="card-body">
-                          <h5 class="card-title">Random Trip Generator</h5>
-                          <p class="card-text">If you are feeling lazy you can generate a random trip with a click of a button.</p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
+                <div class="custom_card cardcontainer">   
+                    <div class="project-cards">
+                        <div class="card">
+                            <img src="./images/Travel.jpg" class="card-image-top" alt="Travel">
+                            <div class="card-body">
+                            <h5 class="card-title">Random Trip Generator</h5>
+                            <p class="card-text">If you are feeling lazy you can generate a random trip with a click of a button.</p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/Most wanted.jpg" class="card-image-top" alt="Most wanted">
+                            <div class="card-body">
+                            <h5 class="card-title">Most Wanted</h5>
+                            <p class="card-text">Search for a specific person's information from a provided list of people.</p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/rpsls.jpg" class="card-image-top" alt="Rock Paper Scissors Lizard Spock">
+                            <div class="card-body">
+                            <h5 class="card-title">RPSLS</h5>
+                            <p class="card-text">Play Rock Paper Scissors Lizard Spock in a Single or Muiltiplayer mode.</p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/johny-vino-9f7s4aLatpw-unsplash.jpg" class="card-image-top" alt="ATM">
+                            <div class="card-body">
+                            <h5 class="card-title">ATM</h5>
+                            <p class="card-text">Check your balance, withdraw your money, or make a deposit with this simple ATM app.</p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/wait.jpg" class="card-image-top" alt="">
+                            <div class="card-body">
+                            <h5 class="card-title">Project coming soon</h5>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/wait.jpg" class="card-image-top" alt="">
+                            <div class="card-body">
+                            <h5 class="card-title">Project coming soon</h5>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./images/wait.jpg" class="card-image-top" alt="">
+                            <div class="card-body">
+                            <h5 class="card-title">Project coming soon</h5>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="images/wait.jpg" class="card-image-top" alt="">
+                            <div class="card-body">
+                            <h5 class="card-title">Project coming soon</h5>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">GitHub</a>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/Most wanted.jpg" class="card-image-top" alt="Most wanted">
-                        <div class="card-body">
-                          <h5 class="card-title">Most Wanted</h5>
-                          <p class="card-text">Search for a specific person's information from a provided list of people.</p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/rpsls.jpg" class="card-image-top" alt="Rock Paper Scissors Lizard Spock">
-                        <div class="card-body">
-                          <h5 class="card-title">RPSLS</h5>
-                          <p class="card-text">Play Rock Paper Scissors Lizard Spock in a Single or Muiltiplayer mode.</p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/johny-vino-9f7s4aLatpw-unsplash.jpg" class="card-image-top" alt="ATM">
-                        <div class="card-body">
-                          <h5 class="card-title">ATM</h5>
-                          <p class="card-text">Check your balance, withdraw your money, or make a deposit with this simple ATM app.</p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/wait.jpg" class="card-image-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Project coming soon</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/wait.jpg" class="card-image-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Project coming soon</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/wait.jpg" class="card-image-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Project coming soon</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/wait.jpg" class="card-image-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">Project coming soon</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-primary">GitHub</a>
-                        </div>
-                    </div>
-
-
-
-
                 </div>
-            </div>
             </div>
         </div>
 
         <div class="Contact">
-            <div class="Contact">
-            <div class="col">
+            <div class="contact-section Contact">
+            <div class="">
                 <h3>Contacts</h3>
+                <p>Email: Vladdygreenfield@gmail.com</p>
+                <p>LinkedIn: www.linkedin.com/in/vladimir-greenfield</p>
             </div>
             </div>
         </div>
