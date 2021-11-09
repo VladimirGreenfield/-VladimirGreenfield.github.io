@@ -1,12 +1,12 @@
-.background-container {
-    height: 100vh;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(156, 250, 218, 0.966),
-        rgba(238, 94, 83, 0.349)),
-        url(./images/Background.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: top;
-     position: relative;   
+body {
+    background-image: url("./images/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.navbar-custom {
+    background-color:#936565 ;
 }
