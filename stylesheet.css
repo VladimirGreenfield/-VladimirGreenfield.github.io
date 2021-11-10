@@ -38,7 +38,7 @@ body {
 .home {
     display: flex;
     height: 30vh;
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(0, 0, 0, 0.171);
 }
 .home .max-width {
     margin: auto 0 auto 40px;
@@ -60,10 +60,75 @@ body {
 .home .home-content .text-3 {
     font-size: 30px;
     margin: 3px 0;
-    font-family:'Azeret Mono', monospace;s
+    font-family:'Azeret Mono', monospace;
 }
 
 .home .home-content .text-3 span {
     color: white;
 }
 
+.projects {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(44, 231, 216, 0.247);
+}
+
+
+
+.text {
+    font-size: 30px;
+    margin-left: 30px;
+    font-family:'Azeret Mono', monospace;
+}
+
+.projects .container1 {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.projects .container2 {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: auto;
+    margin-top: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.about {
+    display: flex;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.contact {
+    display: flex;
+    height: 30vh;
+    background-color: rgba(218, 76, 76, 0.185);
+}
+
+.projects . {
+    font-size: 30px;
+    margin-left: 30px;
+    font-family:'Azeret Mono', monospace;
+}
+
+.about .about-content {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.contact .contact-content {
+    font-size: 20px;
+    font-weight: 500;
+
+}
