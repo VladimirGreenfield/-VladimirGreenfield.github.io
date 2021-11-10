@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Montserrat:wght@200&display=swap');
+
 
 body {
     background-image: url("./images/Background.jpg");
@@ -9,77 +10,60 @@ body {
     position: relative;
 }
 
+
 .navbar-custom {
-    background-color:#936565 ;
+    background-color:rgb(233, 168, 168);
 }
 
-
-.custom_card {
-    width: 15rem;
-    height: auto;
-    margin-top: auto;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.home-section {
-    padding: 1rem;
-    height: 18rem;
-    width: auto;
-    background-color: rgba(12, 12, 12, 0.966);
-}
-
-.aboutme-section {
-    padding: 1rem;
-    height: 30rem;
-    width: auto;
-    background-color:rgba(0, 0, 0, 0.233) ;
-}
-
-.contact-section {
-    padding: 1rem;
-    height: 10rem;
-    width: auto;
-    background-color:#bd5a5a9d ;
-}
-
-.project-section {
-    padding: 1rem;
-    width: auto;
-    background-color: #aa5c5c2d;
-}
-
-li, a, button, {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #C4BABA;
-    text-decoration: none;
-}
-
-header {
-    height:2rem;
+.max-width {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: space-between;
 }
 
-
-button {
-    padding: 6px 15px;
-    background-color: rgba(14, 194, 185, 0.87);
-    border: 5px;
-    border-color:black;
-    border: 40px;
-    cursor: pointer;
-    transition: all 0.4s ease 0s;
+.container-fluid button {
+    list-style: none;
+    display: inline-block;
+    color: rgb(15, 15, 15);
+    margin-left: 20px;
+    background-color: rgba(88, 170, 184, 0.541);
+    font-family:'Azeret Mono', monospace;
+    
 }
 
-button:hover {
-    background-color: #14d4bae3
+.container-fluid button:hover {
+    color: rgb(66, 164, 177);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;;
-    font-style:normal;
-    font-weight: bold;
+.home {
+    display: flex;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.315);
 }
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+    font-size: 30px;
+    font-family:'Azeret Mono', monospace;
+
+}
+
+.home .home-content .text-2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: -5px;
+    font-family:'Azeret Mono', monospace;
+}
+
+.home .home-content .text-3 {
+    font-size: 30px;
+    margin: 3px 0;
+    font-family:'Azeret Mono', monospace;s
+}
+
+.home .home-content .text-3 span {
+    color: white;
+}
+
